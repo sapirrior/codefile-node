@@ -8,12 +8,13 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "test": "node --test tests/*.test.js",
-    "start": "node build/codefile.js"
+    "start": "node build/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sapirrior/codefile.git"
+    "url": "git+https://github.com/sapirrior/codefile-node.git"
   },
   "author": "sapirrior",
   "license": "MIT",
