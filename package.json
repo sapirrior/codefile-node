@@ -1,5 +1,5 @@
 {
-  "name": "@sapirrior/codefile",
+  "name": "@sapirrior/codefile-node",
   "version": "1.0.0",
   "description": "Pack a project directory into a single structured text file for LLM context.",
   "keywords": [

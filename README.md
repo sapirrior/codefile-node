@@ -1,4 +1,4 @@
-# @sapirrior/codefile
+# CodeFile
 
 A lightweight TypeScript tool to bundle a project directory into a single structured text file. Designed to provide comprehensive context for AI models with limited file upload capabilities and to facilitate easy project reconstruction.
 
@@ -11,21 +11,14 @@ A lightweight TypeScript tool to bundle a project directory into a single struct
 
 ## Installation
 
-### 1. Configure Registry (One-time)
-To install from GitHub Packages, add this to your `~/.npmrc`:
-```text
-@sapirrior:registry=https://npm.pkg.github.com
-```
-
-### 2. Install
-To use `codefile` from anywhere in your terminal:
+To install `CodeFile` from anywhere in your terminal:
 ```bash
-npm install -g @sapirrior/codefile
+npm install -g sapirrior/codefile-node
 ```
 
 ### Per-Project Installation
 ```bash
-npm install @sapirrior/codefile
+npm install sapirrior/codefile-node
 ```
 
 ## Usage
@@ -40,7 +33,7 @@ codefile [directory] [-o output.txt]
 ./node_modules/.bin/codefile [directory] [-o output.txt]
 ```
 
-## Options
+### Options
 
 - `-b, --build`: Reconstruct project from a pack file.
 - `-o, --output`: Specify output path for packing or input path for building.
