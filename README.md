@@ -11,22 +11,28 @@ A lightweight TypeScript tool to bundle a project directory into a single struct
 
 ## Installation
 
-Install directly from GitHub:
-
+### Global Installation
+To use `codefile` from anywhere in your terminal:
 ```bash
-npm install @sapirrior/codefile
+npm install -g sapirrior/codefile-node
+```
+
+### Per-Project Installation
+To add `codefile` as a dependency in your current project:
+```bash
+npm install sapirrior/codefile-node
 ```
 
 ## Usage
 
-### Pack a directory
+### If installed globally:
 ```bash
-npx codefile [directory] [-o output.txt]
+codefile [directory] [-o output.txt]
 ```
 
-### Rebuild a project
+### If installed per-project:
 ```bash
-npx codefile --build [-o CodeFile.txt]
+./node_modules/.bin/codefile [directory] [-o output.txt]
 ```
 
 ## Options
