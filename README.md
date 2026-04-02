@@ -11,16 +11,21 @@ A lightweight TypeScript tool to bundle a project directory into a single struct
 
 ## Installation
 
-### Global Installation
+### 1. Configure Registry (One-time)
+To install from GitHub Packages, add this to your `~/.npmrc`:
+```text
+@sapirrior:registry=https://npm.pkg.github.com
+```
+
+### 2. Install
 To use `codefile` from anywhere in your terminal:
 ```bash
-npm install -g sapirrior/codefile-node
+npm install -g @sapirrior/codefile
 ```
 
 ### Per-Project Installation
-To add `codefile` as a dependency in your current project:
 ```bash
-npm install sapirrior/codefile-node
+npm install @sapirrior/codefile
 ```
 
 ## Usage
