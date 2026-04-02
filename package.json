@@ -1,0 +1,26 @@
+{
+  "name": "@sapirrior/codefile",
+  "version": "1.0.0",
+  "description": "Pack a project directory into a single structured text file for LLM context.",
+  "type": "module",
+  "bin": {
+    "codefile": "./build/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js",
+    "start": "node build/codefile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapirrior/codefile.git"
+  },
+  "author": "sapirrior",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@types/node": "^25.5.0"
+  }
+}
